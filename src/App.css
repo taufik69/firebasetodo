@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.todoBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.inputField {
+  width: 416px;
+  padding: 10px 3px;
+}
+
+.Addbtn {
+  margin-left: 10px;
+  padding: 10px 20px;
+}
+
+.todoitmebox {
+  width: 500px;
+  background-color: rgb(87, 85, 88);
+  height: 500px;
+  overflow: scroll;
+  margin-top: 40px;
+  overflow-x: hidden;
+}
+
+.itemParent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.todoItemforcss {
+  list-style: none;
+  background: #c9981189;
+  padding: 20px 0px;
+  margin: 10px 0;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.todoAllItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.edit {
+  padding: 10px 20px;
+  background: greenyellow;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  cursor: pointer;
+}
+.todospan {
+  width: 251px;
+  white-space: pre-line;
+  word-break: break-all;
+}
+
+.delete {
+  padding: 10px 20px;
+  background: red;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  cursor: pointer;
+  color: #ffff;
+}
+
+.closeBtn {
+  padding: 10px 10px;
+  background-color: #000000fd;
+  color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.modalInput {
+  width: 416px;
+  padding: 10px 3px;
+}
+.modalbtn {
+  padding: 10px 60px;
+  background: greenyellow;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
